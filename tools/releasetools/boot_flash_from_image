@@ -85,7 +85,7 @@ if not path.exists(updater_dir):
     makedirs(updater_dir)
 copy2(updater, "%s/update-binary" % updater_dir)
 
-updater_script = "%s/updater-script" % updater_dir
+updater_script = "%s/updater-script-newlayout" % updater_dir
 
 # create the contents
 contents = "ui_print(\"installing Slim Kernel...\");\n"

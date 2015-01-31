@@ -393,7 +393,7 @@ class EdifyGenerator(object):
 
     self.UnmountAll()
 
-    common.ZipWriteStr(output_zip, "META-INF/com/google/android/updater-script",
+    common.ZipWriteStr(output_zip, "META-INF/com/google/android/updater-script-newlayout",
                        "\n".join(self.script) + "\n")
 
     if input_path is None:
