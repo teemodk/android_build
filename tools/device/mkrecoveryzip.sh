@@ -29,7 +29,7 @@ mkdir -p $SCRIPT_DIR
 cp $OUT/system/bin/updater $SCRIPT_DIR/update-binary
 
 
-UPDATER_SCRIPT=$SCRIPT_DIR/updater-script-newlayout
+UPDATER_SCRIPT=$SCRIPT_DIR/updater-script
 rm -f $UPDATER_SCRIPT
 touch $UPDATER_SCRIPT
 mkdir -p $(dirname $UPDATER_SCRIPT)
