@@ -25,6 +25,7 @@ PRODUCT_NAME := core
 PRODUCT_PACKAGES += \
     BackupRestoreConfirmation \
     DownloadProvider \
+    HTMLViewer \
     MediaProvider \
     PackageInstaller \
     SettingsProvider \
@@ -75,7 +76,6 @@ PRODUCT_PACKAGES += \
         libwebviewchromium_plat_support \
         libwebviewchromium_loader \
     wifi-service
-#        HTMLViewer \
 
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.webview.xml:system/etc/permissions/android.software.webview.xml

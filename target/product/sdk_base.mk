@@ -33,6 +33,8 @@ PRODUCT_PACKAGES := \
 	libWnnEngDic \
 	libWnnJpnDic \
 	LiveWallpapersPicker \
+	Mms \
+	Music \
 	OpenWnn \
 	Protips \
 	rild \
@@ -43,8 +45,6 @@ PRODUCT_PACKAGES := \
 	sqlite3 \
 	SystemUI \
 	WidgetPreview
-#	Music \
-#	Mms \
 
 # Define the host tools and libs that are parts of the SDK.
 -include sdk/build/product_sdk.mk
